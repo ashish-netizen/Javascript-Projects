@@ -51,7 +51,7 @@ function displayNotes() {
 
     });
     let notesElem = document.getElementById('notes')
-    if (notes.length != 0) {
+    if (noteVal.length != 0) {
         notesElem.innerHTML = html;
     }
 
