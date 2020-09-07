@@ -1,20 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Netizen JS Based Projects</title>
+</head>
 
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Netizen-Notes</a>
+
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Netizen Guide</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,67 +35,70 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="Netizen Notes/index.html">Notes <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="College Library/index.html">Library <span
+                            class="sr-only">(current)</span></a>
                 </li>
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2"  id="searchTxt" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search"
+                    aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
 
+<div class="container my-3">
 
-    <div class="container my-3 ">
-        <h1>Welcome to Netizen-Notes</h1>
-
-        <div class="card bg">
-
-            <div class="card-body">
-                <h5 class="card-title">Add Title</h5>
-                <div class="input-group flex-nowrap">
-                   
-                    <input type="text" class="form-control"  aria-describedby="title" id="addTitle" placeholder="Write Title" >
-                  </div>
-                  <br>
-                <h5 class="card-title">Add a Note</h5>
-                
-           
-                <div class="form-group">
-
-                    <textarea class="form-control"  placeholder="Add Notes" id="addText" rows="3"></textarea>
-                </div>
-                <button  class="btn btn-primary" id="addBtn">Add Notes</button>
-            </div>
+    <div class="card text-center">
+       
+        <div class="card-body">
+          <h5 class="card-title">Netizen Notes</h5>
+          <p class="card-text">This is a JS Based Web App where one can add their notes with title and can delete.</p>
+          <a href="Netizen Notes/index.html" class="btn btn-danger">Have a Look</a>
         </div>
-        <h1>Your Notes</h1>
-        <div id="notes" class="row container-fluid">
+        
+      </div>
 
-            
 
+      <div class="card text-center my-3">
+       
+        <div class="card-body">
+          <h5 class="card-title">Netizen Library</h5>
+          <p class="card-text">This is a college Library Web App where you can add book name, author name, category type and show list of added books </p>
+          <a href="College Library/index.html" class="btn btn-danger">Have a Look</a>
         </div>
-    </div>
+        
+      </div>
+
+
+      
+</div>
 
 
 
 
 
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="app.js"></script>
 </body>
 
 </html>
