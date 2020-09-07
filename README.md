@@ -1,4 +1,4 @@
 # Javascript-
 
-A Notes Web App using pure javascript 
-Link-https://netizenotes.netlify.app/
+A Website where you can find multiple tools like Note app, Library app 
+Link-https://netizenjsbased.netlify.app/
